@@ -1,6 +1,8 @@
 [![Build Status](https://travis-ci.org/Borewit/t-readable.svg?branch=master)](https://travis-ci.org/Borewit/t-readable)
 [![NPM version](https://badge.fury.io/js/t-readable.svg)](https://npmjs.org/package/t-readable)
 [![npm downloads](http://img.shields.io/npm/dm/t-readable.svg)](https://npmcharts.com/compare/t-readable?start=1200&interval=30)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/Borewit/t-readable.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Borewit/t-readable/alerts/)
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/Borewit/t-readable.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Borewit/t-readable/context:javascript)
 
 # t-readable
 Split one [_readable stream_](https://nodejs.org/api/stream.html#stream_readable_streams) into multiple [_readable streams_](https://nodejs.org/api/stream.html#stream_readable_streams).
