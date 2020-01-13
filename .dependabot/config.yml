@@ -21,3 +21,7 @@ update_configs:
           dependency_name: "eslint"
       - match:
           dependency_name: "got"
+      - match:
+          dependency_name: "@typescript-eslint/eslint-plugin"
+      - match:
+          dependency_name: "@typescript-eslint/parser"
