@@ -39,17 +39,17 @@
     "@nodelib/fs.scandir" "2.1.3"
     fastq "^1.6.0"
 
-"@sindresorhus/is@^2.1.0":
+"@sindresorhus/is@^2.1.1":
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-2.1.1.tgz#ceff6a28a5b4867c2dd4a1ba513de278ccbe8bb1"
   integrity sha512-/aPsuoj/1Dw/kzhkgz+ES6TxG0zfTMGLwuK2ZG00k/iJzYHTLCE8mVU8EPqEOp/lmxPoq1C1C9RYToRKb2KEfg==
 
-"@szmarczak/http-timer@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@szmarczak/http-timer/-/http-timer-4.0.0.tgz#309789ccb7842ff1e41848cf43da587f78068836"
-  integrity sha512-3yoXv8OtGr/r3R5gaWWNQ3VUoQ5G3Gmo8DXX95V14ZVvE2b7Pj6Ide9uIDON8ym4D/ItyfL9ejohYUPqOyvRXw==
+"@szmarczak/http-timer@^4.0.5":
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/@szmarczak/http-timer/-/http-timer-4.0.5.tgz#bfbd50211e9dfa51ba07da58a14cdfd333205152"
+  integrity sha512-PyRA9sm1Yayuj5OIoJ1hGt2YISX45w9WcFbh6ddT0Z/0yaFxOtGLInr4jUfU1EAFVs0Yfyfev4RNwBlUaHdlDQ==
   dependencies:
-    defer-to-connect "^1.1.1"
+    defer-to-connect "^2.0.0"
 
 "@types/cacheable-request@^6.0.1":
   version "6.0.1"
@@ -309,10 +309,10 @@ buffer-from@^1.0.0:
   resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"
   integrity sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==
 
-cacheable-lookup@^4.1.1:
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/cacheable-lookup/-/cacheable-lookup-4.1.2.tgz#07c90b15910d4a5be6f3fa1a0ce73dfb9c192dc9"
-  integrity sha512-qwnOjdDFv4VNVjd5g+aKg7JuRS+q6bD8t9nk7l0tGTCPfLRX2jOmCTHFYc+leooxrtSKyOFzZz5MJQPUeYYkXA==
+cacheable-lookup@^4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/cacheable-lookup/-/cacheable-lookup-4.3.0.tgz#86ff1cb38f648cc6aba28feffe008f808b403550"
+  integrity sha512-PTUoCeIjj2awloqyVRUL33SjquU1Qv5xuDalYY8WAzd9NnUMUivZnGsOzVsMfg2YuMsWXaXkd/hjnsVoWc/3YA==
 
 cacheable-request@^7.0.1:
   version "7.0.1"
@@ -511,10 +511,10 @@ deep-is@~0.1.3:
   resolved "https://registry.yarnpkg.com/deep-is/-/deep-is-0.1.3.tgz#b369d6fb5dbc13eecf524f91b070feedc357cf34"
   integrity sha1-s2nW+128E+7PUk+RsHD+7cNXzzQ=
 
-defer-to-connect@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/defer-to-connect/-/defer-to-connect-1.1.1.tgz#88ae694b93f67b81815a2c8c769aef6574ac8f2f"
-  integrity sha512-J7thop4u3mRTkYRQ+Vpfwy2G5Ehoy82I14+14W4YMDLKdWloI9gSzRbV30s/NckQGVJtPkWNcW4oMAUigTdqiQ==
+defer-to-connect@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/defer-to-connect/-/defer-to-connect-2.0.0.tgz#83d6b199db041593ac84d781b5222308ccf4c2c1"
+  integrity sha512-bYL2d05vOSf1JEZNx5vSAtPuBMkX8K9EUutg7zlKvTqKXHt7RhWJFbmd7qakVuf13i+IkGmp6FwSsONOf6VYIg==
 
 define-properties@^1.1.2, define-properties@^1.1.3:
   version "1.1.3"
@@ -860,7 +860,7 @@ get-func-name@^2.0.0:
   resolved "https://registry.yarnpkg.com/get-func-name/-/get-func-name-2.0.0.tgz#ead774abee72e20409433a066366023dd6887a41"
   integrity sha1-6td0q+5y4gQJQzoGY2YCPdaIekE=
 
-get-stream@^5.0.0, get-stream@^5.1.0:
+get-stream@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-5.1.0.tgz#01203cdc92597f9b909067c3e656cc1f4d3c4dc9"
   integrity sha512-EXr1FOzrzTfGeL0gQdeFEvOMm2mzMOglyiOXSTpPC+iAjAKftbr3jpCMWynogwYnM+eSj9sHGc6wjIcDvYiygw==
@@ -919,20 +919,20 @@ globby@^10.0.1:
     merge2 "^1.2.3"
     slash "^3.0.0"
 
-got@^11.1.1:
-  version "11.1.1"
-  resolved "https://registry.yarnpkg.com/got/-/got-11.1.1.tgz#11f83049df8155b384413547fe163dd4b35b4240"
-  integrity sha512-7WxfuTyT02hMZZdDvaAprEoxsU13boxI8rWMpqk/5Mq6t+YVbExVB2L6yRLh2Nw3TeJyFpanId41+ZyXGesmbw==
+got@^11.1.3:
+  version "11.1.3"
+  resolved "https://registry.yarnpkg.com/got/-/got-11.1.3.tgz#bcb624c636f9c4da5a82a7d7c9017fcad6e2905a"
+  integrity sha512-JnGxEHZiy0ZArb/zhfu1Gxoksy9PjhQ4GAk6N4UArV/m1JdE7cGNVXbUDnrQk+nU7UPMDX+BHQAP0daMjsnTtQ==
   dependencies:
-    "@sindresorhus/is" "^2.1.0"
-    "@szmarczak/http-timer" "^4.0.0"
+    "@sindresorhus/is" "^2.1.1"
+    "@szmarczak/http-timer" "^4.0.5"
     "@types/cacheable-request" "^6.0.1"
     "@types/responselike" "^1.0.0"
-    cacheable-lookup "^4.1.1"
+    cacheable-lookup "^4.3.0"
     cacheable-request "^7.0.1"
     decompress-response "^5.0.0"
-    get-stream "^5.0.0"
-    http2-wrapper "^1.0.0-beta.4.4"
+    get-stream "^5.1.0"
+    http2-wrapper "^1.0.0-beta.4.5"
     lowercase-keys "^2.0.0"
     p-cancelable "^2.0.0"
     responselike "^2.0.0"
@@ -979,10 +979,10 @@ http-cache-semantics@^4.0.0:
   resolved "https://registry.yarnpkg.com/http-cache-semantics/-/http-cache-semantics-4.0.3.tgz#495704773277eeef6e43f9ab2c2c7d259dda25c5"
   integrity sha512-TcIMG3qeVLgDr1TEd2XvHaTnMPwYQUQMIBLy+5pLSDKYFc7UIqj39w8EGzZkaxoLv/l2K8HaI0t5AVA+YYgUew==
 
-http2-wrapper@^1.0.0-beta.4.4:
-  version "1.0.0-beta.4.4"
-  resolved "https://registry.yarnpkg.com/http2-wrapper/-/http2-wrapper-1.0.0-beta.4.4.tgz#6e1c71b5ddff3037ce16053b20d1044b1e8c0df5"
-  integrity sha512-CHpjljc2VeZQ1Lk02dwAfOq0k7uY+MSmt9or0zQiyPr++BIngUKIDRoy/MfX0jVZbpG/GjGVZK3K9ac5pBS//A==
+http2-wrapper@^1.0.0-beta.4.5:
+  version "1.0.0-beta.4.6"
+  resolved "https://registry.yarnpkg.com/http2-wrapper/-/http2-wrapper-1.0.0-beta.4.6.tgz#9438f0fceb946c8cbd365076c228a4d3bd4d0143"
+  integrity sha512-9oB4BiGDTI1FmIBlOF9OJ5hwJvcBEmPCqk/hy314Uhy2uq5TjekUZM8w8SPLLlUEM+mxNhXdPAXfrJN2Zbb/GQ==
   dependencies:
     quick-lru "^5.0.0"
     resolve-alpn "^1.0.0"
