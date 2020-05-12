@@ -35,7 +35,7 @@
     "@types/chai": "^4.2.11",
     "@types/mocha": "^5.2.7",
     "@types/node": "^13.13.5",
-    "@typescript-eslint/eslint-plugin": "^2.31.0",
+    "@typescript-eslint/eslint-plugin": "^2.32.0",
     "@typescript-eslint/parser": "^2.31.0",
     "chai": "^4.2.0",
     "del-cli": "^3.0.0",
