@@ -15,7 +15,7 @@ npm install t-readable
 ```
 or [yarn](https://yarnpkg.com/):
 ```sh
-yan add t-readable
+yarn add t-readable
 ```
 
 ## Usage
